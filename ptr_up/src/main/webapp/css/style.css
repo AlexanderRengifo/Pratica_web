@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+body {
+ background-color: #002f2f ;
+ }
+
+ h1 {
+ 	color: #FFFFFF ;
+ text-align: center;
+ font-family: arial;
+ }
+h2 {
+ 	color:#FFFFFF ;
+ font-family: arial;
+ }
+h3{
+	 background-color: #002f2f;
+	text-aling:center;
+}
+ 
+#favorito {
+border: 1px solid #99c; 
+color: #d9d4a8;
+}
+.destacado {
+ font-weight: bold;
+ color: orange;
+ text-align: right;
+} 
+
+p {
+ font-family: verdana;
+ font-size: 14px;
+ text-align: justify;
+}
+
+header, nav, section, article, footer{
+border:1px solid black;
+display: block;
+}
+
+header {
+ background-color: #002F2F;
+ padding: 20px 10px;
+}
+
+nav {
+ overflow: hidden;
+ background-color: #020B1E;
+ padding: 10px 5px;
+ color:red;
+}
+
+.agrupar
+{
+border:1px;
+margin: auto;
+width:960px;
+}
+
+section { 
+margin:20px;
+width: 600px;
+float:left;
+
+}
+
+aside{
+margin: 20px;
+padding: 30px;
+width:200px;
+border: 3px;
+float:right;
+background:#d9d4a8;
+align-items: center;
+}
+
+footer {
+ overflow: hidden;
+ background-color: #755412 ;
+ padding: 20px 10pxs;
+ text-align: center;
+ clear:both;
+ color: white;
+}
+
+/*lista del pie*/
+footer li{
+list-style: none;
+font:bold 14px verdana;
+padding: 10px;
+display: inline-block;
+}
+
+/*ver productos//buscar-categoria//registrar producots*/
+nav a {
+ float: left;
+ color: white;
+ text-align: center;
+ padding: 12px;
+ text-decoration: underline;
+ font-size: 18px; 
+ line-height: 25px;
+ border-radius: 4px;
+}
+
+/*selector barra superor*/
+nav a:hover {
+ background-color:#00040D ;
+ border:1px solid gray;
+ color:white;
+}
+
+/*barra superior*/
+nav a.active {
+ background-color: #00040D;
+ border:1px solid gray;
+ color: white;
+}
+
+img {
+   margin: 0 20px; 
+   
+}
+
+ul{
+	color:white;
+	font-size:32px;
+}
+
+li{
+		font-size:20px;
+}
+div{
+	background-color: navy;
+  margin: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
